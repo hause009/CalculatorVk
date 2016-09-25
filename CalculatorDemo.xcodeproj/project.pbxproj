@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C29798E41D904ECE00FEC885 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29798E31D904ECE00FEC885 /* AppDelegate.swift */; };
-		C29798E61D904ECE00FEC885 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29798E51D904ECE00FEC885 /* ViewController.swift */; };
+		C29798E61D904ECE00FEC885 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29798E51D904ECE00FEC885 /* CalculatorViewController.swift */; };
 		C29798E91D904ECF00FEC885 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C29798E71D904ECF00FEC885 /* Main.storyboard */; };
 		C29798EB1D904ECF00FEC885 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C29798EA1D904ECF00FEC885 /* Assets.xcassets */; };
 		C29798EE1D904ECF00FEC885 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C29798EC1D904ECF00FEC885 /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		C29798E01D904ECE00FEC885 /* CalculatorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculatorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C29798E31D904ECE00FEC885 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C29798E51D904ECE00FEC885 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C29798E51D904ECE00FEC885 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
 		C29798E81D904ECF00FEC885 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C29798EA1D904ECF00FEC885 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C29798ED1D904ECF00FEC885 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,13 +55,21 @@
 			isa = PBXGroup;
 			children = (
 				C29798E31D904ECE00FEC885 /* AppDelegate.swift */,
-				C29798E51D904ECE00FEC885 /* ViewController.swift */,
+				C29798E51D904ECE00FEC885 /* CalculatorViewController.swift */,
 				C29798E71D904ECF00FEC885 /* Main.storyboard */,
 				C29798EA1D904ECF00FEC885 /* Assets.xcassets */,
+				C29798F51D9051B500FEC885 /* Unknow file */,
+			);
+			path = CalculatorDemo;
+			sourceTree = "<group>";
+		};
+		C29798F51D9051B500FEC885 /* Unknow file */ = {
+			isa = PBXGroup;
+			children = (
 				C29798EC1D904ECF00FEC885 /* LaunchScreen.storyboard */,
 				C29798EF1D904ECF00FEC885 /* Info.plist */,
 			);
-			path = CalculatorDemo;
+			name = "Unknow file";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +104,7 @@
 				TargetAttributes = {
 					C29798DF1D904ECE00FEC885 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 2NVVKND5P4;
 					};
 				};
 			};
@@ -135,7 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C29798E61D904ECE00FEC885 /* ViewController.swift in Sources */,
+				C29798E61D904ECE00FEC885 /* CalculatorViewController.swift in Sources */,
 				C29798E41D904ECE00FEC885 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,6 +258,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CalculatorDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.CalculatorDemo.CalculatorDemo;
@@ -260,6 +270,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CalculatorDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.CalculatorDemo.CalculatorDemo;
